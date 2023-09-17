@@ -1,0 +1,474 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  justify-self: flex-start;
+  min-width: 0;
+  padding: 8px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 10px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    width: 90%;
+  }
+}
+.rootremainAccountSend > :global(.__wab_flex-container) {
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.rootremainAccountSend > :global(.__wab_flex-container) > *,
+.rootremainAccountSend
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.rootremainAccountSend > :global(.__wab_flex-container) > picture > img,
+.rootremainAccountSend
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.rootmobileOnlyRemainAccountSend {
+  width: 85vw;
+}
+.rootmobileOnlyRemainAccountSend > :global(.__wab_flex-container) {
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.rootmobileOnlyRemainAccountSend > :global(.__wab_flex-container) > *,
+.rootmobileOnlyRemainAccountSend
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.rootmobileOnlyRemainAccountSend
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.rootmobileOnlyRemainAccountSend
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.rootremainAccountRecieve {
+  background: linear-gradient(
+      var(--token-B-YMNwiJldfS),
+      var(--token-B-YMNwiJldfS)
+    ),
+    #ffffff;
+}
+.desktop {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  border-radius: 6px 6px 6px 0px;
+  padding: 0px;
+  border-bottom: 1px solid #ffffff;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+}
+.desktopremainAccountSend {
+  border-radius: 0px;
+}
+.desktopmobileOnlyRemainAccountSend {
+  display: none;
+  border-radius: 0px;
+}
+.desktopremainAccountRecieve {
+  border-bottom-right-radius: 0px;
+}
+.button__hosxw:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 100px;
+  flex-shrink: 0;
+}
+.svg__wgHW {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__jvvBn {
+  font-size: 14px;
+}
+.textmobileOnlyRemainAccountSend__jvvBnUteC {
+  color: var(--token-P-IIYr4u14gB);
+}
+.svg__vOhZg {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.button___7VEu:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  left: auto;
+  top: auto;
+  z-index: 1;
+  width: 160px;
+  flex-shrink: 0;
+}
+.svg___6Y30D {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__mD3J5 {
+  font-size: 14px;
+}
+.textremainAccountSend__mD3J5GcWUz {
+  color: var(--token-B-YMNwiJldfS);
+}
+.textmobileOnlyRemainAccountSend__mD3J5UteC {
+  color: var(--token-B-YMNwiJldfS);
+}
+.svg___3Rhkt {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.mobile {
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  display: none;
+  border-radius: 6px 6px 6px 0px;
+  padding: 0px;
+  border-bottom: 1px solid #ffffff;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .mobile {
+    display: flex;
+  }
+}
+.mobileremainAccountSend {
+  border-radius: 0px;
+}
+.mobilemobileOnlyRemainAccountSend {
+  display: flex;
+  border-radius: 0px;
+}
+.button__bIpgh:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 100px;
+  flex-shrink: 0;
+}
+.svg__qxYed {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__kFnze {
+  color: var(--token-B-YMNwiJldfS);
+  font-size: 14px;
+}
+.textremainAccountSend__kFnzeGcWUz {
+  color: var(--token-P-IIYr4u14gB);
+}
+.textmobileOnlyRemainAccountSend__kFnzeUteC {
+  color: var(--token-P-IIYr4u14gB);
+}
+.svg__jVuk9 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.button__qdW0P:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  left: auto;
+  top: auto;
+  z-index: 1;
+  width: 160px;
+  flex-shrink: 0;
+}
+.svg__m4ZMv {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text___9Nbdf {
+  color: var(--token-P-IIYr4u14gB);
+  font-size: 14px;
+}
+.textremainAccountSend___9NbdfGcWUz {
+  color: var(--token-B-YMNwiJldfS);
+}
+.textmobileOnlyRemainAccountSend___9NbdfUteC {
+  color: var(--token-B-YMNwiJldfS);
+}
+.svg__lhHg9 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__mQBl2 {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: #ffffff;
+  font-family: "Lalezar";
+  font-size: 30px;
+  text-align: right;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text__mQBl2 {
+    font-size: 20px;
+  }
+}
+.textmobileOnlyRemainAccountSend__mQBl2UteC {
+  font-size: 20px;
+  width: 80vw;
+}
+.textremainAccountRecieve__mQBl2IcO4O {
+  display: none;
+}
+.text___6T1Ci {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: #ffffff;
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 24px;
+  text-align: right;
+  margin-top: calc(20px + 10px) !important;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text___6T1Ci {
+    font-size: 20px;
+    margin-top: calc(20px + 10px) !important;
+  }
+}
+.textremainAccountSend___6T1CiGcWUz {
+  margin-left: calc(0px + 0px) !important;
+  margin-top: calc(20px + 20px) !important;
+}
+.textmobileOnlyRemainAccountSend___6T1CiUteC {
+  font-size: 20px;
+  width: 80vw;
+  margin-left: calc(0px + 0px) !important;
+  margin-top: calc(20px + 20px) !important;
+}
+.textremainAccountRecieve___6T1CiicO4O {
+  margin-top: calc(20px + 10px) !important;
+}
+.freeBox__bqhg {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: calc(25px + 10px) !important;
+  margin-bottom: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px;
+}
+.freeBoxremainAccountSend__bqhgGcWUz {
+  margin-left: calc(0px + 0px) !important;
+  margin-top: calc(25px + 20px) !important;
+  display: none;
+}
+.freeBoxmobileOnlyRemainAccountSend__bqhgUteC {
+  margin-left: calc(0px + 0px) !important;
+  margin-top: calc(25px + 20px) !important;
+  display: none;
+}
+.freeBoxremainAccountRecieve__bqhGicO4O {
+  margin-top: calc(25px + 10px) !important;
+  display: none;
+}
+.select:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 90%;
+}
+.freeBox__tqRAb {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: calc(0px + 10px) !important;
+  margin-bottom: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px;
+}
+.freeBoxremainAccountSend__tqRAbGcWUz {
+  margin-left: calc(0px + 0px) !important;
+  margin-top: calc(0px + 20px) !important;
+  display: none;
+}
+.freeBoxmobileOnlyRemainAccountSend__tqRAbUteC {
+  margin-left: calc(0px + 0px) !important;
+  margin-top: calc(0px + 20px) !important;
+  display: none;
+}
+.freeBoxremainAccountRecieve__tqRAbicO4O {
+  margin-top: calc(0px + 10px) !important;
+  display: none;
+}
+.select2:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 90%;
+}
+.freeBox__yZrMi {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  border-radius: 15px;
+  padding: 1px;
+  border: 1px solid #ffffff;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__yZrMi {
+    width: 100%;
+    display: flex;
+  }
+}
+.freeBoxmobileOnlyRemainAccountSend__yZrMiUteC {
+  width: 100%;
+  min-width: 0;
+}
+.freeBoxremainAccountRecieve__yZrMIicO4O {
+  display: none;
+}
+.text__vMy9Q {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: var(--token-B-YMNwiJldfS);
+  text-align: right;
+  left: auto;
+  top: auto;
+  z-index: 1;
+  margin-top: -14px;
+  margin-right: -357px;
+  color: var(--token-P-IIYr4u14gB);
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text__vMy9Q {
+    margin-right: -148px;
+    display: block;
+  }
+}
+.textremainAccountRecieve__vMy9QicO4O {
+  display: none;
+}
+.input2:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  height: 40px;
+  width: 100%;
+  font-family: "Vazirmatn", sans-serif;
+  background: none;
+  color: #ffffff;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 12px;
+  padding: 1px 10px 10px 1px;
+  border: 1px solid var(--token-B-YMNwiJldfS);
+}
+.button___2XtCb:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  color: var(--token-B-YMNwiJldfS);
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  margin-top: calc(15px + 10px) !important;
+  min-width: 0;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .button___2XtCb:global(.__wab_instance) {
+    width: 100%;
+    margin-top: calc(15px + 10px) !important;
+  }
+}
+.buttonmobileOnlyRemainAccountSend___2XtCbUteC:global(.__wab_instance) {
+  width: 100%;
+  margin-top: calc(15px + 20px) !important;
+  min-width: 0;
+}
+.buttonremainAccountRecieve___2XtCbicO4O:global(.__wab_instance) {
+  margin-top: calc(15px + 10px) !important;
+  display: none;
+}
+.text__wH0Eo {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
